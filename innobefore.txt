@@ -1,0 +1,38 @@
+HabitRPG-Local 0.2.1
+--------------------
+
+READ THIS BEFORE INSTALLING!!!
+
+What you are about to install is an unofficial package of habitrpg's server/client. This server is a local server, that DOES NOT sync with the remote server at habitrpg.com.
+
+
+Requirements:
+-This installation is for Microsoft Windows  (Only XP and windows 7 have been tested.)
+-You will need approximately 600MB of free hard drive space.
+
+
+IMPORTANT:
+Do NOT change the installation folder unless you absolutely must.  This installer installs HabitRPG-Local into "C:\hrpgl", because installing into other folders may potentially cause errors with file paths being too long.  If you choose to install to a different folder, try to install to a folder that is directly off of the root directory(The root directory 8 is c:\ for most people).  If that is not an option for you, try to install to the folder with the shortest path name(If you don't have administrator privileges, "c:\user\'your user name'\hrpgl" might work, where 'your user name" is the actual user name you log in with).  If you recieve errors, you can try to simply skip or ignore them all, and HabitRPG-Local may still work, if you're lucky.
+
+
+Details:
+Besides the "c:\hrpgl" folder, the installer also creates a folder called "HabitRPG-Local" in the start menu that contatins links to the HabitRPG-Local server, client, forum thread, readme and uninstaller.  It also installs icons for the server and client to the desktop, unless you unchecked the box during install.
+
+
+Time to install:
+Once the installer starts, it will take some time.  On my system it took about 5 minutes.
+
+
+
+Post Installation:
+
+After installation, the installer gives you the option to launch HabitRPG-Local.  This will launch two black cmd prompt windows called "mongodb.cmd" and "server.cmd".  This is the server and it's database. These windows must stay open for the server to work.  Server.cmd may take some time to load, and may stay black while it's loading.  If you recieve any popups requesting access, press accept.
+
+If the installation, mongodb.cmd, and server.cmd are successful, the server.cmd window should say that socket.io started, followed by 4 lines of text about expressions.  You can then open the client from the start menu(or desktop) by running "HabitRPG-Local Client", or by entering "localhost:3000" in your web browser's address bar.
+
+If you have problems or questions please post them to the forum thread at http://community.habitrpg.com/content/habitrpg-local-unofficial, AFTER you have read this file and the README.  There is a link to the forum thread in the HabitRPG-Local folder called "HabitRPG-Local on the Web".
+
+
+
+
+
